@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Simple-Social\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-17 16:12-0600\n"
+"PO-Revision-Date: 2012-09-17 16:12-0600\n"
+"Last-Translator: \n"
+"Language-Team: Dallas Bass <dallasb86@gmail.com>\n"
+"Language: us_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-simple-social.php:190
+msgid "Image:"
+msgstr ""
+
+#: ../wp-simple-social.php:194
+msgid "Select Your Image Shape"
+msgstr ""
+
+#: ../wp-simple-social.php:206 ../wp-simple-social.php:248
+msgid "Add Transperancy?:"
+msgstr ""
+
+#: ../wp-simple-social.php:217
+msgid "Preview:"
+msgstr ""
+
+#: ../wp-simple-social.php:224
+msgid "Select Your Icon Shape"
+msgstr ""
+
+#: ../wp-simple-social.php:236
+msgid "Select Your Icon Size"
+msgstr ""
+
+#: ../wp-simple-social.php:259
+msgid "Icon Background Color:"
+msgstr ""
+
+#: ../wp-simple-social.php:263
+msgid "Icon Color:"
+msgstr ""
+
+#: ../wp-simple-social.php:271
+msgid "Bio:"
+msgstr ""
+
+#: ../wp-simple-social.php:306 ../wp-simple-social.php:322
+#: ../wp-simple-social.php:337 ../wp-simple-social.php:351
+#: ../wp-simple-social.php:366 ../wp-simple-social.php:380
+#: ../wp-simple-social.php:395 ../wp-simple-social.php:410
+msgid "Icon:"
+msgstr ""
+
+#: ../wp-simple-social.php:317 ../wp-simple-social.php:333
+#: ../wp-simple-social.php:348 ../wp-simple-social.php:362
+#: ../wp-simple-social.php:377 ../wp-simple-social.php:391
+#: ../wp-simple-social.php:406 ../wp-simple-social.php:421
+msgid "Icon Link:"
+msgstr ""

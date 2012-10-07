@@ -1,0 +1,153 @@
+/* Load the custom icon font */
+@font-face {
+	font-family: 'SimpleSocial';
+	src:url('fonts/SimpleSocial.eot');
+	src:url('fonts/SimpleSocial.eot?#iefix') format('embedded-opentype'),
+		url('fonts/SimpleSocial.svg#SimpleSocial') format('svg'),
+		url('fonts/SimpleSocial.woff') format('woff'),
+		url('fonts/SimpleSocial.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'SimpleSocial';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-feed:before {
+	content: "\52";
+}
+.icon-amazon:before {
+	content: "\21";
+}
+.icon-blogger:before {
+	content: "\22";
+}
+.icon-delicious:before {
+	content: "\23";
+}
+.icon-deviantart:before {
+	content: "\24";
+}
+.icon-dribbble:before {
+	content: "\25";
+}
+.icon-facebook:before {
+	content: "\26";
+}
+.icon-flickr:before {
+	content: "\27";
+}
+.icon-forrst:before {
+	content: "\28";
+}
+.icon-github:before {
+	content: "\29";
+}
+.icon-google-plus:before {
+	content: "\2a";
+}
+.icon-lastfm:before {
+	content: "\2b";
+}
+.icon-picassa:before {
+	content: "\2c";
+}
+.icon-reddit:before {
+	content: "\2d";
+}
+.icon-skype:before {
+	content: "\2e";
+}
+.icon-soundcloud:before {
+	content: "\2f";
+}
+.icon-tumblr:before {
+	content: "\30";
+}
+.icon-twitter:before {
+	content: "\31";
+}
+.icon-vimeo:before {
+	content: "\32";
+}
+.icon-wordpress:before {
+	content: "\33";
+}
+.icon-android:before {
+	content: "\34";
+}
+.icon-apple:before {
+	content: "\35";
+}
+.icon-chrome:before {
+	content: "\36";
+}
+.icon-css3:before {
+	content: "\37";
+}
+.icon-html5:before {
+	content: "\38";
+}
+.icon-IE:before {
+	content: "\39";
+}
+.icon-opera:before {
+	content: "\3a";
+}
+.icon-windows:before {
+	content: "\3b";
+}
+.icon-firefox:before {
+	content: "\3c";
+}
+.icon-safari:before {
+	content: "\3d";
+}
+.icon-pinterest1:before {
+	content: "\3e";
+}
+
+/* Set plugin specific styles */
+
+.db_wpss_widget_class {
+	margin-bottom: 10px;
+}
+
+.db_wpss_widget_class ul li {
+	float: left !important;
+	margin: 0px 0px 0px 10px !important;
+	padding: 0px !important;
+	background-color: transparent !important;
+	list-style-type: none !important;
+	background: none;
+}
+
+.db_wpss_widget_class ul {
+	background-color: transparent;
+	margin-left: -10px !important;
+	padding: 0px !important;
+	overflow: auto;
+}
+
+.db_wpss_widget_class p {
+	margin-bottom: 10px;
+}
+
+.db_wpss_widget_class img {
+	max-width: 100%;
+}
+
+.db_wpss_widget_class a {
+	font-weight: lighter;
+	line-height: 1.5em;
+	text-decoration: none;
+}
+
+.db_wpss_widget_class ul li a:hover {
+	border: none !important;
+	text-decoration: none !important;
+}
