@@ -556,7 +556,7 @@ class db_wpss_my_info extends WP_Widget {
 		} else {
 			echo '';
 		}
-		
+
 		if ( $profimgtrans == 'Display Transparent Image' ) {
 			echo '<style>';
 			echo '.db_wpss_widget_class img {opacity:.5}';
@@ -565,7 +565,7 @@ class db_wpss_my_info extends WP_Widget {
 		} else {
 			echo '';
 		}
-		
+
 		if ( $icontrans == 'Display Transparent Image' ) {
 			echo '<style>';
 			echo '.db_wpss_widget_class span {opacity:.5}';
@@ -575,7 +575,7 @@ class db_wpss_my_info extends WP_Widget {
 			echo '';
 		}
         
-		
+
 		if ( $iconshape == 'circle' && $iconsize == 'Small' ) {
 			echo '<style>';
 			echo '.db_wpss_widget_class span {border-radius:50%; font-size:1em; padding:6px; line-height:2.6em;};';
@@ -603,18 +603,18 @@ class db_wpss_my_info extends WP_Widget {
 		} else {
 			echo '';
 		}
-		
-		
+
+
 		echo '<img src="' . $profimg . '" title="WP-Simple-Social Profile Image" />';
         echo '<p>' . $bio .'</p>';
-		
+
 		echo '<ul>';
         
         if(!empty($amazon)) {
 			echo '<li><a href="http://www.amazon.com/shops/' . $amazon . '"><span class="icon-amazon" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>';
         } else {
 	       echo '';
-	        
+
         }
         if (!empty($blogger)) {
 	        echo '<li><a href="' . $blogger . '"><span class="icon-blogger" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>';
@@ -673,44 +673,44 @@ class db_wpss_my_info extends WP_Widget {
 			echo '';
 		}
 		if (!empty($pinterest)) {
-			echo '<li><a href="http://github.com/' . $github . '"><span class="icon-pinterest1" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
+			echo '<li><a href="http://pinterest.com/' . $pinterest . '"><span class="icon-pinterest1" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
 		} else {
 			echo '';
 		}
-		
+
 		if (!empty($reddit)) {
-			echo '<li><a href="http://github.com/' . $github . '"><span class="icon-reddit" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
+			echo '<li><a href="http://reddit.com/u/' . $reddit . '"><span class="icon-reddit" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
 		} else {
 			echo '';
 		}
 		if (!empty($rss)) {
-			echo '<li><a href="http://github.com/' . $github . '"><span class="icon-feed" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
+			echo '<li><a href="' . $rss . '"><span class="icon-feed" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
 		} else {
 			echo '';
 		}
 		if (!empty($skype)) {
-			echo '<li><a href="http://github.com/' . $github . '"><span class="icon-skype" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
+			echo '<li><a href="skype' . $skype . '?call"><span class="icon-skype" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
 		} else {
 			echo '';
 		}
 		if (!empty($soundcloud)) {
-			echo '<li><a href="' . $wordpress . '"><span class="icon-soundcloud" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
+			echo '<li><a href="http://www.soundcloud.com/' . $soundcloud . '"><span class="icon-soundcloud" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
 		} else {
 			echo '';
 		}
 		if (!empty($tumblr)) {
-			echo '<li><a href="' . $wordpress . '"><span class="icon-tumblr" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
+			echo '<li><a href="' . $tumblr . '"><span class="icon-tumblr" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
 		} else {
 			echo '';
 		}
-		
+
 		if (!empty($twitter)) {
-			echo '<li><a href="' . $wordpress . '"><span class="icon-twitter" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
+			echo '<li><a href="http://twitter.com/' . $twitter . '"><span class="icon-twitter" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
 		} else {
 			echo '';
 		}
 		if (!empty($vimeo)) {
-			echo '<li><a href="' . $wordpress . '"><span class="icon-vimeo" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
+			echo '<li><a href="http://vimeo.com/' . $vimeo . '"><span class="icon-vimeo" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>'; 
 		} else {
 			echo '';
 		}
@@ -737,7 +737,7 @@ if ( $apple == 'Display' ) {
 		} else {
 			echo '';
 		}
-		
+
 if ( $chrome == 'Display' ) {
 			if (!empty($chromeurl)) {
 				echo '<li><a href="' . $chromeurl . '"><span class="icon-chrome" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>';
@@ -747,7 +747,7 @@ if ( $chrome == 'Display' ) {
 		} else {
 			echo '';
 		}
-		
+
 if ( $css == 'Display' ) {
 			if (!empty($cssurl)) {
 				echo '<li><a href="' . $cssurl . '"><span class="icon-css3" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>';
@@ -757,7 +757,7 @@ if ( $css == 'Display' ) {
 		} else {
 			echo '';
 		}
-		
+
 		if ( $html == 'Display' ) {
 			if (!empty($htmlurl)) {
 				echo '<li><a href="' . $htmlurl . '"><span class="icon-html5" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>';
@@ -767,7 +767,7 @@ if ( $css == 'Display' ) {
 		} else {
 			echo '';
 		}
-		
+
 		if ( $ie == 'Display' ) {
 			if (!empty($ieurl)) {
 				echo '<li><a href="' . $ieurl . '"><span class="icon-IE" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>';
@@ -777,7 +777,7 @@ if ( $css == 'Display' ) {
 		} else {
 			echo '';
 		}
-		
+
 		if ( $opera == 'Display' ) {
 			if (!empty($operaurl)) {
 				echo '<li><a href="' . $operaurl . '"><span class="icon-opera" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>';
@@ -787,7 +787,7 @@ if ( $css == 'Display' ) {
 		} else {
 			echo '';
 		}
-		
+
 		if ( $windows == 'Display' ) {
 			if (!empty($windowsurl)) {
 				echo '<li><a href="' . $windowsurl . '"><span class="icon-windows" style="background-color:' . $iconbgcolor . '; color:' . $iconcolor . '"></span></a>';
@@ -797,7 +797,7 @@ if ( $css == 'Display' ) {
 		} else {
 			echo '';
 		}
-		
+
 		echo '</ul>';      
    }
 }
